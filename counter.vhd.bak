@@ -1,0 +1,62 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity advanced_counter is
+generic(
+	max_count : integer := 9);
+port(
+	clk : in std_logic;
+	reset : in std_logic;
+	enable : in std_logic;
+	dir : in std_logic;
+	load : in std_logic;
+	data_in : in std_logic_vector (3 downto 0);
+	count : out std_logic_vector (3 downto 0);
+	max_flag : out std_logic);
+end advanced_counter;
+
+architecture behavioral of advanced_counter is
+	signal count_int : unsigned (3 downto 0);
+	signal max_reached : std_logic;
+begin
+	process(clk, reset)
+	--variable temp : unsigned;
+	begin	
+		if reset = '1' then 
+			count_int <= (others => '0');
+			max_reached <= '0';
+		elsif rising_edge(clk) then
+			if enable = '1' then
+				if load = '1' then
+					count_int <= unsigned(data_in);
+				else
+					case dir is 
+						when '0' => 
+							if count_int = max_count then
+								count_int <= (others => '0');
+							 	max_reached <= '0';
+							else
+								count_int <= count_int + 1;
+								max_reached <= '0';
+							end if;
+						when '1' =>
+							if count_int = 0 then
+								count_int <= to_unsigned(max_count, 4);
+								max_reached <= '1';
+							else
+								count_int <= count_int - 1;
+								max_reached <= '0';
+							end if;
+						when others => 
+							count_int <= count_int;
+					end case;
+				end if;
+			end if;
+		end if;
+end process;
+
+count <= std_logic_vector(count_int);
+max_flag <= max_reached;
+
+end behavioral;
