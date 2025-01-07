@@ -1,0 +1,48 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity shift_register_16bit is
+port(
+	clock : in std_logic;
+	reset : in std_logic;
+	direction : in std_logic; --'0' for right and '1' for left
+	data_in : in std_logic;
+	data_out : out std_logic_vector (15 downto 0));
+end shift_register_16bit;
+
+architecture behavioral of shift_register_16bit is
+	signal reg : std_logic_vector (15 downto 0);
+	signal count : integer range 1 to 2500000 := 0; --for 1 second delay with 50MHz clock
+	signal slow_clock : std_logic := '0';
+begin
+	--clock divider for 1 second
+	process(clock, reset)
+	begin
+		if reset < '1' then
+			count <= 0;
+			slow_clock <= '0';
+		elsif rising_edge(clock) then 
+			if count = 2500000 then 
+				count <= 0;
+				slow_clock <= not slow_clock;
+			else 
+				count <= count + 1;
+			end if;
+		end if;
+	end process;
+	
+	--shift register
+	process(slow_clock, reset)
+	begin
+		if reset = '1' then
+			reg <= (others => '0');
+		elsif rising_edge(slow_clock) then
+			if direction = '0' then 
+				reg <= data_in & reg(15 downto 1);
+			else
+				reg <= reg(14 downto 0) & data_in;
+			end if;
+		end if;
+	end process;
+data_out <= reg;
+end behavioral;

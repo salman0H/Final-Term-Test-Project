@@ -9,33 +9,33 @@ z2
 cModel Technology
 Z0 dD:/3.MyProject/9.VHDL/BCD Timer
 T_opt
-!s110 1736099880
-V6f[U75A;fR6^bAQWWUUm[3
-04 16 10 work advanced_counter behavioral 1
-=1-028d28b4dbdd-677ac828-9e-41f4
-Z1 o-quiet -auto_acc_if_foreign -work work +acc
-Z2 tCvgOpt 0
+!s110 1736250575
+VbjkbUzI;gOiF]20==W_[;2
+04 6 10 work mux2_1 behavioral 1
+=1-60e32b9d88f7-677d14cf-1db-3dc4
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
 n@_opt
-Z3 OL;O;10.5;63
-R0
+Z2 OL;O;10.5;63
 T_opt1
-!s110 1736100039
-V?795d<_YBLVBAgTDgzT>23
-04 19 10 work advanced_counter_tb behavioral 1
-=1-028d28b4dbdd-677ac8c7-141-2eb8
+!s110 1736250537
+V=kmShl1BGB4UjSLH_M`Qm2
+04 10 10 work rs232_test behavioral 1
+=1-60e32b9d88f7-677d14a9-dd-4728
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
 R1
-R2
 n@_opt1
-R3
-T_opt2
-!s110 1736081934
-Vlin_XNg;WK_BoPLbPN^ag2
-04 20 10 work parallel_adder_16bit behavioral 1
-=1-028d28b4dbdd-677a820e-31b-4798
-R1
 R2
-n@_opt2
+R0
+T_opt2
+!s110 1736250553
+V^8eE^>RUABOPkJ8^FKRkK3
+04 8 10 work rs232_tx behavioral 1
+=1-60e32b9d88f7-677d14b8-391-5224
 R3
+R1
+n@_opt2
+R2
 R0
 Eadvanced_counter
 Z4 w1736099833
@@ -51,9 +51,9 @@ Vd3?MmA:5nejn3RE=6Sjf`1
 !s100 b7B[7G4zfDm?aRCgZEMn:0
 Z11 OL;C;10.5;63
 32
-Z12 !s110 1736099835
+Z12 !s110 1736249857
 !i10b 1
-Z13 !s108 1736099835.000000
+Z13 !s108 1736249857.000000
 Z14 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/counter.vhd|
 Z15 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/counter.vhd|
 !i113 0
@@ -92,11 +92,11 @@ V1n3LA89We6[SEScNe[L_e1
 !s100 I6j=:zXPS4nzaLbSF?H2c2
 R11
 32
-Z21 !s110 1736100007
+R12
 !i10b 1
-Z22 !s108 1736100007.000000
-Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/counter_tb.vhd|
-Z24 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/counter_tb.vhd|
+R13
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/counter_tb.vhd|
+Z22 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/counter_tb.vhd|
 !i113 0
 R16
 R17
@@ -111,32 +111,32 @@ V2>9l;KJ>oV9`JgU0cTb:g2
 !s100 RekjE3S<ZUIN6GWC]Gb1`3
 R11
 32
-R21
+R12
 !i10b 1
+R13
+R21
 R22
-R23
-R24
 !i113 0
 R16
 R17
 Eand_or
-Z25 w1736070356
+Z23 w1736070356
 R6
 R7
 R8
-Z26 8D:/3.MyProject/9.VHDL/FinalTermTest/and_or.vhd
-Z27 FD:/3.MyProject/9.VHDL/FinalTermTest/and_or.vhd
+Z24 8D:/3.MyProject/9.VHDL/FinalTermTest/and_or.vhd
+Z25 FD:/3.MyProject/9.VHDL/FinalTermTest/and_or.vhd
 l0
 L4
 Vg5ZL1?ncL06ng]4S@o40:1
 !s100 94Y;B9<?Qz?:LRZ6:Gbk=3
 R11
 32
-Z28 !s110 1736081084
+R12
 !i10b 1
-Z29 !s108 1736081084.000000
-Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/and_or.vhd|
-Z31 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/and_or.vhd|
+R13
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/and_or.vhd|
+Z27 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/and_or.vhd|
 !i113 0
 R16
 R17
@@ -150,32 +150,175 @@ VQAk1YAjN2BfYVjIQ?b;[c3
 !s100 gcj;Y62>=klU[T>:S:zJ82
 R11
 32
-R28
+R12
 !i10b 1
+R13
+R26
+R27
+!i113 0
+R16
+R17
+Ebcdcounter
+w1736250168
+R5
+R6
+R7
+R8
+8D:\3.MyProject\9.VHDL\FinalTermTest\bcd_counter.vhd
+FD:\3.MyProject\9.VHDL\FinalTermTest\bcd_counter.vhd
+l0
+L13
+V^Q@7baMadDZ9i7banFGj:2
+!s100 [ae@oUBbfObe6<V<6QBh61
+R11
+32
+!s110 1736250169
+!i10b 1
+!s108 1736250169.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:\3.MyProject\9.VHDL\FinalTermTest\bcd_counter.vhd|
+!s107 D:\3.MyProject\9.VHDL\FinalTermTest\bcd_counter.vhd|
+!i113 0
+R16
+R17
+Ecounter
+Z28 w1736169552
+R5
+R6
+R7
+R8
+Z29 8D:/3.MyProject/9.VHDL/FinalTermTest/counter_0_9.vhd
+Z30 FD:/3.MyProject/9.VHDL/FinalTermTest/counter_0_9.vhd
+l0
+L5
+V^lhLW;TTHFOLI=bXYShVV3
+!s100 ih`hRLPS;W?:1T5aXonVJ3
+R11
+32
+Z31 !s110 1736249858
+!i10b 1
+Z32 !s108 1736249858.000000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/counter_0_9.vhd|
+Z34 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/counter_0_9.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R5
+R6
+R7
+DEx4 work 7 counter 0 22 ^lhLW;TTHFOLI=bXYShVV3
+l14
+L11
+V;R5?KSSCP_n7LJ<9@zbg80
+!s100 K_5:RcUNKV`@DhHPP_M_]3
+R11
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 0
+R16
+R17
+Ecounter_0_9
+Z35 w1736169404
+R6
+R7
+R8
 R29
 R30
+l0
+L4
+Va=3gc]2gC=XUL4SfnS2:G3
+!s100 f6h=Jm0njY>e5Kg;ZM1D53
+R11
+32
+Z36 !s110 1736169405
+!i10b 1
+Z37 !s108 1736169405.000000
+R33
+R34
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+DEx4 work 11 counter_0_9 0 22 a=3gc]2gC=XUL4SfnS2:G3
+l12
+L10
+VkM70E4Y40RQ3QUk@0_Ylc2
+!s100 DznVFGd6jXm[GKZM7Q5ID3
+R11
+32
+R36
+!i10b 1
+R37
+R33
+R34
+!i113 0
+R16
+R17
+Ecounter_tb
+Z38 w1736232885
+R5
+R6
+R7
+R8
+Z39 8D:/3.MyProject/9.VHDL/FinalTermTest/counter_0_9_tb.vhd
+Z40 FD:/3.MyProject/9.VHDL/FinalTermTest/counter_0_9_tb.vhd
+l0
+L5
+V`eoahm4F=`m4L]lH1V[Cf2
+!s100 KGNOl6WcEe]oX=7?dEYC;3
+R11
+32
 R31
+!i10b 1
+R32
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/counter_0_9_tb.vhd|
+Z42 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/counter_0_9_tb.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R5
+R6
+R7
+DEx4 work 10 counter_tb 0 22 `eoahm4F=`m4L]lH1V[Cf2
+l24
+L8
+VbQTV5F[G2LGG6aSD1a2Le0
+!s100 6ViNj6AziUW213_c]<Hi80
+R11
+32
+R31
+!i10b 1
+R32
+R41
+R42
 !i113 0
 R16
 R17
 Eexample_process
-Z32 w1736092209
+Z43 w1736092209
 R6
 R7
 R8
-Z33 8D:/3.MyProject/9.VHDL/FinalTermTest/example_process.vhd
-Z34 FD:/3.MyProject/9.VHDL/FinalTermTest/example_process.vhd
+Z44 8D:/3.MyProject/9.VHDL/FinalTermTest/example_process.vhd
+Z45 FD:/3.MyProject/9.VHDL/FinalTermTest/example_process.vhd
 l0
 L4
 VBgIS_RcIdonTMX7<c:>1L3
 !s100 _c5V`AWk^W:h?KIWj9ge_1
 R11
 32
-Z35 !s110 1736092211
+R12
 !i10b 1
-Z36 !s108 1736092211.000000
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/example_process.vhd|
-Z38 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/example_process.vhd|
+R13
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/example_process.vhd|
+Z47 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/example_process.vhd|
 !i113 0
 R16
 R17
@@ -189,71 +332,192 @@ V7Nfe2aT53LB0iUT?0hRIi0
 !s100 Q]<SX=4HHZQc9ifA>QQf13
 R11
 32
-R35
+R12
 !i10b 1
-R36
-R37
-R38
+R13
+R46
+R47
 !i113 0
 R16
 R17
-Efull_adder
-Z39 w1735978271
+Efeedback_circuit
+Z48 w1736245849
+R5
 R6
 R7
 R8
-Z40 8D:/3.MyProject/9.VHDL/FinalTermTest/FinalTermTest.vhd
-Z41 FD:/3.MyProject/9.VHDL/FinalTermTest/FinalTermTest.vhd
+Z49 8D:/3.MyProject/9.VHDL/FinalTermTest/feedback_circuit.vhd
+Z50 FD:/3.MyProject/9.VHDL/FinalTermTest/feedback_circuit.vhd
 l0
-L4
-V0ni=1oDXc=e:@Ef@:jbTJ2
-!s100 :lLaj;1SPnBn;nT=7Eo3f1
+L5
+V_gk2eemKK2G@_R<Xc@1Rz3
+!s100 EeaCMa0YAh1SoBU>PGgIB2
 R11
 32
-Z42 !s110 1736081083
+R31
 !i10b 1
-Z43 !s108 1736081083.000000
-Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/FinalTermTest.vhd|
-Z45 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/FinalTermTest.vhd|
+R32
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/feedback_circuit.vhd|
+Z52 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/feedback_circuit.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R5
+R6
+R7
+DEx4 work 16 feedback_circuit 0 22 _gk2eemKK2G@_R<Xc@1Rz3
+l14
+L12
+VP5WiG1LkcDH<YHc5?hJZ`1
+!s100 ]6C6U@:NaSC9BOninVnB_0
+R11
+32
+R31
+!i10b 1
+R32
+R51
+R52
+!i113 0
+R16
+R17
+Efeedback_circuit_tb
+Z53 w1736245931
+R5
+R6
+R7
+R8
+Z54 8D:/3.MyProject/9.VHDL/FinalTermTest/feedback_circuit_tb.vhd
+Z55 FD:/3.MyProject/9.VHDL/FinalTermTest/feedback_circuit_tb.vhd
+l0
+L5
+VCEU``m0@A=I[G]h8lg?fT3
+!s100 >WFYfAd7e_DcSOemk[KZ01
+R11
+32
+R31
+!i10b 1
+R32
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/feedback_circuit_tb.vhd|
+Z57 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/feedback_circuit_tb.vhd|
+!i113 0
+R16
+R17
+Atestbench
+R5
+R6
+R7
+DEx4 work 19 feedback_circuit_tb 0 22 CEU``m0@A=I[G]h8lg?fT3
+l25
+L8
+VWCCHEhK0l^LYL:JEHXd==2
+!s100 MUIiQ?12Vd?f^k5iI02:l0
+R11
+32
+R31
+!i10b 1
+R32
+R56
+R57
+!i113 0
+R16
+R17
+Efrequency_divider
+Z58 w1736249196
+R6
+R7
+R8
+Z59 8D:/3.MyProject/9.VHDL/FinalTermTest/frequency_divider.vhd
+Z60 FD:/3.MyProject/9.VHDL/FinalTermTest/frequency_divider.vhd
+l0
+L4
+Vm82lWlYag5a[C7kCb[mJD3
+!s100 YP>5_SN@>2Z][;b54S3_Y2
+R11
+32
+R31
+!i10b 1
+R32
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/frequency_divider.vhd|
+Z62 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/frequency_divider.vhd|
 !i113 0
 R16
 R17
 Abehavioral
 R6
 R7
-Z46 DEx4 work 10 full_adder 0 22 0ni=1oDXc=e:@Ef@:jbTJ2
+DEx4 work 17 frequency_divider 0 22 m82lWlYag5a[C7kCb[mJD3
+l18
+L15
+Ve3O@2^;0>O5639_UCfbfN1
+!s100 EWI@N@52JDM=2ZmFgT>eh2
+R11
+32
+R31
+!i10b 1
+R32
+R61
+R62
+!i113 0
+R16
+R17
+Efull_adder
+Z63 w1735978271
+R6
+R7
+R8
+Z64 8D:/3.MyProject/9.VHDL/FinalTermTest/FinalTermTest.vhd
+Z65 FD:/3.MyProject/9.VHDL/FinalTermTest/FinalTermTest.vhd
+l0
+L4
+V0ni=1oDXc=e:@Ef@:jbTJ2
+!s100 :lLaj;1SPnBn;nT=7Eo3f1
+R11
+32
+R12
+!i10b 1
+R13
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/FinalTermTest.vhd|
+Z67 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/FinalTermTest.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+Z68 DEx4 work 10 full_adder 0 22 0ni=1oDXc=e:@Ef@:jbTJ2
 l16
 L14
 V45GQAA<kfZNHeDg79`>jY2
 !s100 e9l^jL4A2GLaQPT5MOEJV2
 R11
 32
-R42
+R12
 !i10b 1
-R43
-R44
-R45
+R13
+R66
+R67
 !i113 0
 R16
 R17
 Efull_adder_4bits
-Z47 w1735983887
+Z69 w1735983887
 R6
 R7
 R8
-Z48 8D:/3.MyProject/9.VHDL/FinalTermTest/fullAdder4Bits.vhd
-Z49 FD:/3.MyProject/9.VHDL/FinalTermTest/fullAdder4Bits.vhd
+Z70 8D:/3.MyProject/9.VHDL/FinalTermTest/fullAdder4Bits.vhd
+Z71 FD:/3.MyProject/9.VHDL/FinalTermTest/fullAdder4Bits.vhd
 l0
 L4
 VDi?UHb=UD4`9bMD1Wg<Si0
 !s100 oLlMUJKJHGEQD9fL;Q[ii1
 R11
 32
-R28
+R12
 !i10b 1
-R43
-Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/fullAdder4Bits.vhd|
-Z51 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/fullAdder4Bits.vhd|
+R13
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/fullAdder4Bits.vhd|
+Z73 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/fullAdder4Bits.vhd|
 !i113 0
 R16
 R17
@@ -267,32 +531,32 @@ V=Uim0oWzc[[b:Z4h9M7B<1
 !s100 4mFk^LC^m?[n^GJNUUdBE3
 R11
 32
-R28
+R12
 !i10b 1
-R43
-R50
-R51
+R13
+R72
+R73
 !i113 0
 R16
 R17
 Efull_adder_tb
-Z52 w1735978167
+Z74 w1735978167
 R6
 R7
 R8
-Z53 8D:/3.MyProject/9.VHDL/FinalTermTest/FinalTermTest-tb.vhd
-Z54 FD:/3.MyProject/9.VHDL/FinalTermTest/FinalTermTest-tb.vhd
+Z75 8D:/3.MyProject/9.VHDL/FinalTermTest/FinalTermTest-tb.vhd
+Z76 FD:/3.MyProject/9.VHDL/FinalTermTest/FinalTermTest-tb.vhd
 l0
 L4
 VPgZAUD7iZ39a@:UKQk`f_2
 !s100 6G4Df5hoYKk5ZLmN7e:X>1
 R11
 32
-R42
+R12
 !i10b 1
-R43
-Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/FinalTermTest-tb.vhd|
-Z56 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/FinalTermTest-tb.vhd|
+R13
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/FinalTermTest-tb.vhd|
+Z78 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/FinalTermTest-tb.vhd|
 !i113 0
 R16
 R17
@@ -306,16 +570,16 @@ V127DF?hze;1o_S8AZa6KO0
 !s100 ;U16>QR^h]R[=<M=ER4N`3
 R11
 32
-R42
+R12
 !i10b 1
-R43
-R55
-R56
+R13
+R77
+R78
 !i113 0
 R16
 R17
 Abehavioral
-R46
+R68
 R6
 R7
 DEx4 work 13 full_adder_tb 0 22 WTHh4:SBdR9F:o2H26N[=2
@@ -328,30 +592,229 @@ R11
 !s110 1735977764
 !i10b 1
 !s108 1735977764.000000
-R55
-R56
+R77
+R78
 !i113 0
 R16
 R17
 w1735977760
-Emux_4_1
-Z57 w1736084373
+Emealy_machine
+Z79 w1736233840
 R6
 R7
 R8
-Z58 8D:/3.MyProject/9.VHDL/FinalTermTest/mux_4_1.vhd
-Z59 FD:/3.MyProject/9.VHDL/FinalTermTest/mux_4_1.vhd
+Z80 8D:/3.MyProject/9.VHDL/FinalTermTest/moore.vhd
+Z81 FD:/3.MyProject/9.VHDL/FinalTermTest/moore.vhd
+l0
+L4
+V8>Fc_ojbA@k?WX@SLlFDE3
+!s100 VPmmoalH;f670=JORc3nO3
+R11
+32
+R31
+!i10b 1
+R32
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/moore.vhd|
+Z83 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/moore.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+DEx4 work 13 mealy_machine 0 22 8>Fc_ojbA@k?WX@SLlFDE3
+l14
+L11
+VXSGa]hBLAggB9L3aSQ_Ml0
+!s100 mQ3C9K2CgfaAmna@0k;^I3
+R11
+32
+R31
+!i10b 1
+R32
+R82
+R83
+!i113 0
+R16
+R17
+Emealy_machine_tb
+Z84 w1736234013
+R5
+R6
+R7
+R8
+Z85 8D:/3.MyProject/9.VHDL/FinalTermTest/mealy_tb.vhd
+Z86 FD:/3.MyProject/9.VHDL/FinalTermTest/mealy_tb.vhd
+l0
+L5
+Vn4jk^PV4hJWZDU_M=T@So3
+!s100 oIgbP2j5Z[L1NbIN4Lh]62
+R11
+32
+R31
+!i10b 1
+R32
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/mealy_tb.vhd|
+Z88 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/mealy_tb.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R5
+R6
+R7
+DEx4 work 16 mealy_machine_tb 0 22 n4jk^PV4hJWZDU_M=T@So3
+l24
+L8
+V^9TK9698FD2>O3Fb1WTL@3
+!s100 ZG]4Ko1>]7NU:H1_2zk6@3
+R11
+32
+R31
+!i10b 1
+R32
+R87
+R88
+!i113 0
+R16
+R17
+Emoore_machine
+Z89 w1736233793
+R6
+R7
+R8
+Z90 8D:/3.MyProject/9.VHDL/FinalTermTest/mealy.vhd
+Z91 FD:/3.MyProject/9.VHDL/FinalTermTest/mealy.vhd
+l0
+L4
+VdI]Jj_IYHeE:Ld6l2Sg8`0
+!s100 b<bSz_XP0UQ5_@Gh3<^Tf0
+R11
+32
+R31
+!i10b 1
+R32
+Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/mealy.vhd|
+Z93 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/mealy.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+DEx4 work 13 moore_machine 0 22 dI]Jj_IYHeE:Ld6l2Sg8`0
+l14
+L11
+VJJ<bi3?291EXPaLAFPJ>D1
+!s100 jZkYFP2H1az;Q1BLkKaeH0
+R11
+32
+R31
+!i10b 1
+R32
+R92
+R93
+!i113 0
+R16
+R17
+Emoore_machine_tb
+Z94 w1736233952
+R5
+R6
+R7
+R8
+Z95 8D:/3.MyProject/9.VHDL/FinalTermTest/moore_tb.vhd
+Z96 FD:/3.MyProject/9.VHDL/FinalTermTest/moore_tb.vhd
+l0
+L5
+V3Z7NHHgQ:e@Q]`?Uo3?Z70
+!s100 XJFFIe=_J=43R7cSA32GQ0
+R11
+32
+R31
+!i10b 1
+R32
+Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/moore_tb.vhd|
+Z98 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/moore_tb.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R5
+R6
+R7
+DEx4 work 16 moore_machine_tb 0 22 3Z7NHHgQ:e@Q]`?Uo3?Z70
+l25
+L8
+V36C_S]6@A^KUaFZkLzm5C2
+!s100 nKa1LkakjfVVYhDk0_OZa3
+R11
+32
+R31
+!i10b 1
+R32
+R97
+R98
+!i113 0
+R16
+R17
+Emux2_1
+Z99 w1736250313
+R6
+R7
+R8
+Z100 8D:/3.MyProject/9.VHDL/FinalTermTest/mux_2_1.vhd
+Z101 FD:/3.MyProject/9.VHDL/FinalTermTest/mux_2_1.vhd
+l0
+L5
+VLafcg@T2`3`L8Mk4A[P<c0
+!s100 ?J3>9g9Tc6Dn8`_:3PT9;1
+R11
+32
+Z102 !s110 1736250314
+!i10b 1
+Z103 !s108 1736250314.000000
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/mux_2_1.vhd|
+Z105 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/mux_2_1.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+DEx4 work 6 mux2_1 0 22 Lafcg@T2`3`L8Mk4A[P<c0
+l17
+L11
+VK5YK8>ob3ICF11:l7Hm5b3
+!s100 z]k4o07]AWTcaXHWc_G[I2
+R11
+32
+R102
+!i10b 1
+R103
+R104
+R105
+!i113 0
+R16
+R17
+Emux_4_1
+Z106 w1736084373
+R6
+R7
+R8
+Z107 8D:/3.MyProject/9.VHDL/FinalTermTest/mux_4_1.vhd
+Z108 FD:/3.MyProject/9.VHDL/FinalTermTest/mux_4_1.vhd
 l0
 L5
 VT[D@WenBzHbZ8ZTBmM2fz3
 !s100 cNmN=lzFnh681j>[F>X[Q1
 R11
 32
-Z60 !s110 1736084375
+R12
 !i10b 1
-Z61 !s108 1736084375.000000
-Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/mux_4_1.vhd|
-Z63 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/mux_4_1.vhd|
+R13
+Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/mux_4_1.vhd|
+Z110 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/mux_4_1.vhd|
 !i113 0
 R16
 R17
@@ -365,33 +828,33 @@ VCAiKJMbN?=K3<0bGRIYKe2
 !s100 R0S14C=0iWSIfB54JMO`H3
 R11
 32
-R60
+R12
 !i10b 1
-R61
-R62
-R63
+R13
+R109
+R110
 !i113 0
 R16
 R17
 Eparallel_adder_16bit
-Z64 w1736082510
+Z111 w1736082510
 R5
 R6
 R7
 R8
-Z65 8D:/3.MyProject/9.VHDL/FinalTermTest/signed_adder_16bit.vhd
-Z66 FD:/3.MyProject/9.VHDL/FinalTermTest/signed_adder_16bit.vhd
+Z112 8D:/3.MyProject/9.VHDL/FinalTermTest/signed_adder_16bit.vhd
+Z113 FD:/3.MyProject/9.VHDL/FinalTermTest/signed_adder_16bit.vhd
 l0
 L5
 V596DmXMM5>P4ge95OB6JF1
 !s100 F^Lz]_`D>3]`iYPSJ11a73
 R11
 32
-Z67 !s110 1736082512
+R12
 !i10b 1
-Z68 !s108 1736082512.000000
-Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/signed_adder_16bit.vhd|
-Z70 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/signed_adder_16bit.vhd|
+R13
+Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/signed_adder_16bit.vhd|
+Z115 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/signed_adder_16bit.vhd|
 !i113 0
 R16
 R17
@@ -406,23 +869,267 @@ V?B<]`LPFE7DAXWV>WHkR82
 !s100 hZEd[;3WiMC^YE>CVc6fJ3
 R11
 32
-R67
+R12
 !i10b 1
-R68
-R69
-R70
+R13
+R114
+R115
+!i113 0
+R16
+R17
+Eresize_function
+Z116 w1736248909
+R5
+R6
+R7
+R8
+Z117 8D:/3.MyProject/9.VHDL/FinalTermTest/resize_function.vhd
+Z118 FD:/3.MyProject/9.VHDL/FinalTermTest/resize_function.vhd
+l0
+L5
+VN_An:mg`2lP=422L2^`Gg0
+!s100 A^[h14Vi0ThVCVY0JoX>Y2
+R11
+32
+R31
+!i10b 1
+R32
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/resize_function.vhd|
+Z120 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/resize_function.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R5
+R6
+R7
+DEx4 work 15 resize_function 0 22 N_An:mg`2lP=422L2^`Gg0
+l12
+L10
+VhI9X8nkfOO0oUgmUCmPT<0
+!s100 hB;@_ZG`M]T`Sb8Ch=ehO3
+R11
+32
+R31
+!i10b 1
+R32
+R119
+R120
+!i113 0
+R16
+R17
+Ers232_rx
+Z121 w1736250469
+R5
+R6
+R7
+R8
+Z122 8D:/3.MyProject/9.VHDL/FinalTermTest/rs232_rx.vhd
+Z123 FD:/3.MyProject/9.VHDL/FinalTermTest/rs232_rx.vhd
+l0
+L5
+V35o:AzIRne:;8d2Egd^B:3
+!s100 Pm>5Blf<2e1_HbMeab?jU1
+R11
+32
+Z124 !s110 1736250471
+!i10b 1
+Z125 !s108 1736250471.000000
+Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/rs232_rx.vhd|
+Z127 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/rs232_rx.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R5
+R6
+R7
+DEx4 work 8 rs232_rx 0 22 35o:AzIRne:;8d2Egd^B:3
+l32
+L13
+VliMQbzPfCF<YSL;aNic`N0
+!s100 XQX`Xh[nNUjTmM]e?Da8j0
+R11
+32
+R124
+!i10b 1
+R125
+R126
+R127
+!i113 0
+R16
+R17
+Ers232_tb
+Z128 w1736250443
+R5
+R6
+R7
+R8
+Z129 8D:/3.MyProject/9.VHDL/FinalTermTest/rs232_tb.vhd
+Z130 FD:/3.MyProject/9.VHDL/FinalTermTest/rs232_tb.vhd
+l0
+L8
+VTW^kA5@nWh>i83_Ao`Ozd1
+!s100 jYXJ3fFNN181l]=^AESPN2
+R11
+32
+Z131 !s110 1736250444
+!i10b 1
+Z132 !s108 1736250444.000000
+Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/rs232_tb.vhd|
+Z134 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/rs232_tb.vhd|
+!i113 0
+R16
+R17
+Abehavior
+R5
+R6
+R7
+DEx4 work 8 rs232_tb 0 22 TW^kA5@nWh>i83_Ao`Ozd1
+l38
+L11
+V3[K]lVHh2O>RAon3?MG^X1
+!s100 jNmWE]1f:MG]NO6I;K[LV1
+R11
+32
+R131
+!i10b 1
+R132
+R133
+R134
+!i113 0
+R16
+R17
+Ers232_test
+Z135 w1736250409
+R5
+R6
+R7
+R8
+Z136 8D:/3.MyProject/9.VHDL/FinalTermTest/rs232_test.vhd
+Z137 FD:/3.MyProject/9.VHDL/FinalTermTest/rs232_test.vhd
+l0
+L13
+V0^U^cUZaUP;@PX]gDFoQc1
+!s100 1:B3QX@@ECHW7ZjL:S@ce1
+R11
+32
+Z138 !s110 1736250410
+!i10b 1
+Z139 !s108 1736250410.000000
+Z140 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/rs232_test.vhd|
+Z141 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/rs232_test.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R5
+R6
+R7
+DEx4 work 10 rs232_test 0 22 0^U^cUZaUP;@PX]gDFoQc1
+l56
+L24
+VNzafADV28PL7KOBj7b8J;2
+!s100 9V^ci>Fjz>3fOG^n2T1Ji0
+R11
+32
+R138
+!i10b 1
+R139
+R140
+R141
+!i113 0
+R16
+R17
+Ers232_tx
+Z142 w1736250377
+R5
+R6
+R7
+R8
+Z143 8D:/3.MyProject/9.VHDL/FinalTermTest/rs232_tx.vhd
+Z144 FD:/3.MyProject/9.VHDL/FinalTermTest/rs232_tx.vhd
+l0
+L7
+V5IIzklaGXZm0L?GM0iAEb0
+!s100 B4JoeHldCeZJFmdX>E>ES0
+R11
+32
+Z145 !s110 1736250378
+!i10b 1
+Z146 !s108 1736250378.000000
+Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/rs232_tx.vhd|
+Z148 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/rs232_tx.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R5
+R6
+R7
+DEx4 work 8 rs232_tx 0 22 5IIzklaGXZm0L?GM0iAEb0
+l32
+L15
+ViInhB@X=Po[3G5o13Yc;Y3
+!s100 T5HTK1?G9PbzY:<IC`IjE2
+R11
+32
+R145
+!i10b 1
+R146
+R147
+R148
+!i113 0
+R16
+R17
+Eshift_register_16bit
+Z149 w1736162218
+R6
+R7
+R8
+Z150 8D:/3.MyProject/9.VHDL/FinalTermTest/shift_register_16bit.vhd
+Z151 FD:/3.MyProject/9.VHDL/FinalTermTest/shift_register_16bit.vhd
+l0
+L4
+V:P>3cN;3jcThDoOoh==fL3
+!s100 ZfWO^1V<Xd8b0XcWV4zFf2
+R11
+32
+R31
+!i10b 1
+R13
+Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/shift_register_16bit.vhd|
+Z153 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/shift_register_16bit.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R6
+R7
+DEx4 work 20 shift_register_16bit 0 22 :P>3cN;3jcThDoOoh==fL3
+l17
+L13
+VM4;7CQ0;jbXPQ;GH03<5m3
+!s100 AIa]7j=7GZYU673JOMZC:1
+R11
+32
+R31
+!i10b 1
+R13
+R152
+R153
 !i113 0
 R16
 R17
 Esigned_adder
-Z71 w1736088018
+Z154 w1736088018
 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 R6
 R7
 R8
-Z72 8D:/3.MyProject/9.VHDL/FinalTermTest/signed_adder.vhd
-Z73 FD:/3.MyProject/9.VHDL/FinalTermTest/signed_adder.vhd
+Z155 8D:/3.MyProject/9.VHDL/FinalTermTest/signed_adder.vhd
+Z156 FD:/3.MyProject/9.VHDL/FinalTermTest/signed_adder.vhd
 l0
 L6
 V`9l;XTZLMC;G0I6L?]dNn1
@@ -432,8 +1139,8 @@ R11
 !s110 1736088020
 !i10b 1
 !s108 1736088020.000000
-Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/signed_adder.vhd|
-Z75 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/signed_adder.vhd|
+Z157 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/signed_adder.vhd|
+Z158 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/signed_adder.vhd|
 !i113 0
 R16
 R17
@@ -451,8 +1158,90 @@ R11
 !s110 1736087574
 !i10b 1
 !s108 1736087574.000000
-R74
-R75
+R157
+R158
+!i113 0
+R16
+R17
+Esm_adder
+Z159 w1736162258
+R5
+R6
+R7
+R8
+Z160 8D:/3.MyProject/9.VHDL/FinalTermTest/add_sub.vhd
+Z161 FD:/3.MyProject/9.VHDL/FinalTermTest/add_sub.vhd
+l0
+L6
+V[;0YL3Al:jRnYb?Mg5nFU0
+!s100 0;?Hm65GoKDRT3QlRQ;Bf3
+R11
+32
+R12
+!i10b 1
+R13
+Z162 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/add_sub.vhd|
+Z163 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/add_sub.vhd|
+!i113 0
+R16
+R17
+Abehavioral
+R5
+R6
+R7
+DEx4 work 8 sm_adder 0 22 [;0YL3Al:jRnYb?Mg5nFU0
+l18
+L13
+VOAFI3BaP;GX93kgKT50ND0
+!s100 jI;YzUZlY3iNM8MRX=H0U2
+R11
+32
+R12
+!i10b 1
+R13
+R162
+R163
+!i113 0
+R16
+R17
+Esm_adder_tb
+Z164 w1736148800
+R5
+R6
+R7
+R8
+Z165 8D:/3.MyProject/9.VHDL/FinalTermTest/add_sum_tb.vhd
+Z166 FD:/3.MyProject/9.VHDL/FinalTermTest/add_sum_tb.vhd
+l0
+L8
+V6Md@I=]IkEOB_aJJaRi_l2
+!s100 KBj>:kN;mLL^eA?JS1MY>1
+R11
+32
+R12
+!i10b 1
+R13
+Z167 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/3.MyProject/9.VHDL/FinalTermTest/add_sum_tb.vhd|
+Z168 !s107 D:/3.MyProject/9.VHDL/FinalTermTest/add_sum_tb.vhd|
+!i113 0
+R16
+R17
+Abehavior
+R5
+R6
+R7
+DEx4 work 11 sm_adder_tb 0 22 6Md@I=]IkEOB_aJJaRi_l2
+l37
+L11
+V^;H@Z@Vjd9??lChJkgB[E0
+!s100 nIB3a;MdRO1z_a@L0iA;k3
+R11
+32
+R12
+!i10b 1
+R13
+R167
+R168
 !i113 0
 R16
 R17

@@ -1,0 +1,22 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity feedback_circuit is
+port(
+	clock : in std_logic;
+	a : in std_logic_vector(7 downto 0);
+	f : out std_logic_vector(7 downto 0));
+end feedback_circuit;
+
+architecture behavioral of feedback_circuit is
+	sif=gnal f_reg : std_logic_vector(7 downto 0);
+begin
+	process(clock)
+	begin
+		if rising_edge(clock) then 
+			f_reg <= std_logic_vector(unsigned(f_reg) + unsigned(a));
+		end if;
+	end process;
+f <= f_reg;
+end behavioral;
